@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            box-shadow: 30px 2px 40px 2px black;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+        }
+        .teams{
+            width: 20%;
+        }
+        .box{
+            width: 80%;
+            text-align: justify;
+        }
+        @media screen and (max-width : 930px){
+            a{
+                content-visibility: hidden;
+            }
+        }
+        @media screen and (max-width : 700px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .a{
+                content-visibility: visible;
+            }
+            .teams{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .box{
+                width: 100%;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="teams">
+            <h2>Teams Manager</h5>
+            <div class="first">
+                <input type="checkbox">
+                <label for="name">Aman</label>
+                <a href="https://www.google.com">https://www.google.com</a>
+            </div>
+            <div class="first">
+                <input type="checkbox">
+                <label for="name">Aman chauhan</label>
+                <a href="https://www.google.com">https://www.google.com</a>
+            </div>
+            <div class="first">
+                <input type="checkbox">
+                <label for="name">Aman Rajput</label>
+                <a href="https://www.google.com">https://www.google.com</a>
+            </div>
+        </div>
+        <div class="box">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum labore accusantium, exercitationem ratione nisi facilis? Sed saepe, quas, a nisi dolor molestiae fuga amet nihil provident ex placeat similique impedit at perspiciatis earum modi cupiditate facere! Rem voluptate, veniam incidunt laudantium sunt adipisci possimus sapiente velit quam facere pariatur aliquam atque iste iusto. Commodi culpa veritatis molestiae dolores quisquam quibusdam fugit aliquid! Repellendus distinctio quas labore ipsa ipsum omnis, esse aliquid error minus quia? Qui enim sit animi optio. Ipsa vel quibusdam dolorem! Dolorem accusantium architecto illo corporis, enim nemo? Consectetur est enim et ipsum ea laboriosam dolorem excepturi, doloribus vero tenetur necessitatibus optio officia. Quisquam impedit ipsa ad, eaque dignissimos autem voluptatibus obcaecati laboriosam corrupti. Eum veniam vel itaque voluptates blanditiis numquam veritatis voluptatibus expedita voluptate. Ipsam cumque, unde, iure quisquam quam dolores nihil pariatur nisi nam dolorum ea! Numquam excepturi odio incidunt, atque enim, hic odit molestias dignissimos nostrum amet voluptate harum impedit explicabo quo quasi. A incidunt eius quisquam laudantium nostrum libero dicta temporibus deleniti, alias quis blanditiis ipsam impedit commodi voluptatem veniam eligendi laboriosam qui dolore cupiditate repellendus labore iure? Quaerat et labore ipsa similique harum distinctio quasi pariatur aspernatur, mollitia obcaecati! Ratione tenetur sapiente voluptatem quis voluptatibus ex vitae, incidunt accusamus expedita recusandae delectus voluptates, enim inventore blanditiis dignissimos sunt sed rerum quasi ullam omnis non illum nobis quam repudiandae. Quis doloribus ratione voluptates asperiores dolorem qui enim possimus aut expedita molestias. Alias, dolorum magnam temporibus ratione voluptatum officia, beatae adipisci quis magni perspiciatis, fuga delectus sit sapiente? Provident possimus obcaecati vel a aperiam corrupti repellendus magni reiciendis recusandae incidunt eius porro dolorum dignissimos dolor, molestias blanditiis animi in itaque reprehenderit ut, nesciunt nostrum? Qui, in hic tempore, dignissimos minus suscipit molestiae quae ipsa eaque ipsam explicabo, commodi cum enim nisi nostrum? A qui ipsam quidem nobis unde deleniti, quia esse officia commodi natus eos assumenda, veritatis labore fugiat iure molestiae harum velit illum eaque aperiam error dicta accusantium? Quod perferendis alias laudantium labore obcaecati. Architecto commodi totam, similique quibusdam quidem modi omnis blanditiis odit!
+        </div>
+    </div>
+</body>
+</html>
